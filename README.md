@@ -20,7 +20,7 @@
 
 3.1 进入刚创建的服务，点击`创建函数`；  
 3.2 选择`使用自定义运行时创建`，填写函数名称，如`main`；  
-3.3 代码上传方式选择`通过 ZIP 包上传代码`，将本项目仓库中的 zip 包`func-code-4-RSSFilter.zip`下载后上传；  
+3.3 代码上传方式选择`通过 ZIP 包上传代码`，将本项目仓库中的[过滤器zip代码包](https://github.com/hillerliao/RssFilter/blob/main/func-code-4-RSSFilter.zip)`func-code-4-RSSFilter.zip`下载后上传；  
 3.4 启动命令填入`python app.py`；  
 
 点击 `创建`。
@@ -29,7 +29,7 @@
 
 ## 三、获取地址
 
-4、获得测试地址，带上路径和参数，如 `/filter?feed=<rss 地址>&include_title=<过滤词>` 支持的参数同 rsshub-python的rss [RSS Filter参数](https://pyrsshub.vercel.app/feeds)
+4、获得测试地址，带上路径和参数，如 `/filter?feed=<rss 地址>&include_title=<过滤词>` 支持的参数同 RSSHub-Python 的 [RSS Filter参数](https://pyrsshub.vercel.app/feeds)
 
 ![阿里云函数计算-获取函数公网地址](https://raw.githubusercontent.com/hillerliao/img/main/20220918134337.png)
 
@@ -41,8 +41,14 @@
 
 ![阿里云函数计算-在线编辑器](https://raw.githubusercontent.com/hillerliao/img/main/20220918134819.png)
 
-如果你觉得本项目对你有用，请我喝杯咖啡。
+## 四、制作 RSS 过滤器的初衷
+
+回顾我作 RSS 过滤器的初心：提高信息获取效率。
+
+比如，有些 RSS，我只关心带有特定关键词的内容；另一些 RSS，我不想看到含有特定关键词的广告内容。有了 RSS 过滤器，这些需求都能得到满足。
+
+好了，如果你觉得本项目对你有用，不妨请我喝杯咖啡。
 
 ![个人微信收款码-智海](https://raw.githubusercontent.com/hillerliao/img/main/IMG_0096%20copy.jpg)
 
-有改进建议，欢迎交流。微信： `hillerliao`。
+如果有改进建议，欢迎交流。微信： `hillerliao`。
