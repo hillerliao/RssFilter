@@ -41,4 +41,6 @@
 
 如果你觉得本项目对你有用，请我喝杯咖啡。
 
-![](https://raw.githubusercontent.com/hillerliao/img/main/20220918135531.png)
+![](https://raw.githubusercontent.com/hillerliao/img/main/IMG_0096%20copy.jpg)
+
+有改进建议，欢迎交流。微信： `hillerliao`。
